@@ -1,5 +1,7 @@
 ## Cleaning Company Names with FuzzyWuzzy
-FuzzyWuzzy is a python library that helps to provide the user a probability of matching a specific word using Levenshtein Distance. 
+FuzzyWuzzy is a python library that helps to provide the user a probability of matching a specific word using Levenshtein Distance. This
+means you are able to find typos and spelling mistakes alot easier to spot.
+
 For more information: https://github.com/seatgeek/fuzzywuzzy
 
 ## Current Problem
