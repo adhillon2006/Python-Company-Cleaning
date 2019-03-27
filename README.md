@@ -3,8 +3,8 @@ FuzzyWuzzy is a python library that helps to provide the user a probability of m
 For more information: https://github.com/seatgeek/fuzzywuzzy
 
 ## Current Problem
-In serveral systems people have a free text field to enter their company name. For example, you can have Intel with multiple
-abbreviations like Intel Corp, Intel Americas, Intel Inc, and etc. 
+In several system having a free text field can result in many similar company name. For example, you can have Intel with multiple
+abbreviations like Intel Corp, Intel Americas, Intel Inc, and etc. This could make it difficult to complete an analysis. 
 
 ## Solution
 Use FuzzyWuzzy and utilize the fuzz.token_set_ration() function in the library that is not case sensitive. Also I would suggest
