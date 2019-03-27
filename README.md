@@ -12,3 +12,6 @@ abbreviations like Intel Corp, Intel Americas, Intel Inc, and etc. This could ma
 Use FuzzyWuzzy and utilize the fuzz.token_set_ration() function in the library that is not case sensitive. Also I would suggest
 using company names without any Inc or Corp at the end to help improve accuracy of the library. In addition, companies with short names
 could have false positives. 
+
+# Future Project
+Looking to webscrape all the subsidaries using Google
