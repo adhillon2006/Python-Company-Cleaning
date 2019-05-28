@@ -6,16 +6,16 @@ For more information: https://github.com/seatgeek/fuzzywuzzy
 
 ## Current Problem
 In several system having a free text field can result in many similar company name. For example, you can have Intel with multiple
-abbreviations like Intel Corp, Intel Americas, Intel Inc, and etc. This could make it difficult to complete an analysis. 
+abbreviations like Intel Corp, Intel Americas, Intel Inc, and etc. This could make it difficult to complete an analysis.
 
 ## Solution
 Use FuzzyWuzzy and utilize the fuzz.token_set_ration() function in the library that is not case sensitive. Also I would suggest
 using company names without any Inc or Corp at the end to help improve accuracy of the library. In addition, companies with short names
-could have false positives. 
+could have false positives.
 
 # Subsidiary
-Utilize the library called wikipedia to extract the information needed. 
+Utilize the library called wikipedia to extract the information needed.
 
-For more information: 
+For more information:
 https://wikipedia.readthedocs.io/en/latest/quickstart.html#quickstart
 https://wikipedia.readthedocs.io/en/latest/code.html
